@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400px;
+    background-color: #dce9fc;
+    margin: 0 auto;
+    letter-spacing: 1px;
+
+    font-style: 16px;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.header {
+    background-color: #428df5;
+    padding: 0px 30px;
+    margin: 0 auto;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 1600px;
+
+}
+
+.nav_list {
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_item {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #fff;
+
+    transition: 0.5s ease-out;
+}
+
+.nav_link:hover {
+    color: #adcbf8;
+}
+
+.about {
+    padding-top: 50px;
+
+    align-items: center;
+    text-align: center;
+}
+
+.image {
+    max-width: 300px;
+    border-radius: 100px;
+}
+
+.name {
+    color: #547fc0;
+
+    font-weight: 700;
+}
+
+.about_me {
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.contacts {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contacts_title {
+    padding-left: 40px;
+}
+
+.contacts_list {
+    text-decoration: none;
+}
+
+.contact_item {
+    list-style-type: none;
+    text-decoration: none;
+    color: #000;
+    padding-top: 10px;
+
+}
+
+.contact_link {
+    text-decoration: none;
+    color: #000;
+
+    transition: 0.5s ease-out;
+}
+
+
+
+.contact_link:hover {
+    color: #416aa8;
+}
+
+.skills {
+    padding-top: 50px;
+}
+
+.skills_title {
+    padding-left: 40px;
+}
+
+
+.skills_item {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.languages {
+    padding-top: 50px;
+}
+
+.languages_title {
+    padding-left: 40px;
+}
+
+
+.languages_item {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.code_example_title {
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+.education {
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.projects {
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+}
+
+.project_link {
+    text-decoration: none;
+    color: #000;
+
+    transition: 0.5s ease-out;
+}
+
+.project_link:hover {
+    color: #416aa8;
+}
+
+.footer {
+    background-color: #428df5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.gh_img {
+    max-width: 75px;
+}
+
+.rs_img {
+    min-height: 30px;
+}
